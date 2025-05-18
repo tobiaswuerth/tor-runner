@@ -1,0 +1,27 @@
+[build-system]
+requires = ['setuptools>=61.0']
+build-backend = 'setuptools.build_meta'
+
+[tool.setuptools]
+packages = ['tor']
+
+[project]
+name = "py-tor-runner"
+authors = [{name = "Tobias Würth"}]
+version = "1.0.1"
+requires-python = ">=3.9"
+dependencies = []
+
+description = "A Python utility for managing Tor processes to enable anonymous web browsing through SOCKS5 proxies."
+keywords = ["python", "tor", "proxy", "SOCKS5"]
+readme = {file = "README.md", content-type = "text/markdown"}
+license = "unlicense"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/tobiaswuerth/tor-runner"
+"Bug Tracker" = "https://github.com/tobiaswuerth/tor-runner/issues"

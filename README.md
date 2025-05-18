@@ -6,6 +6,10 @@ A Python utility for managing Tor processes to enable anonymous web browsing thr
 
 Requires local [Tor Browser](https://www.torproject.org/download/) to be installed.
 
+```bash
+pip install py-tor-runner
+```
+
 `requirements.txt` is only necessary if you want to run the provided test files. Otherwise, tor-runner is a standalone library compatible with default Python packages.
 
 ### Basic Usage with Requests
